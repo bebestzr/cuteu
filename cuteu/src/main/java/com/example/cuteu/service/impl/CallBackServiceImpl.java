@@ -5,4 +5,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CallBackServiceImpl implements CallBackService {
+
+    private void demo(){
+        System.out.println("hello");
+    }
 }
